@@ -1,0 +1,37 @@
+ .el-header{
+    display: flex;
+    justify-content: space-between;
+}
+.el-aside{
+    min-width:236px;
+    text-align: left;
+}
+.el-main{
+    text-align:left;
+}
+.el-footer{
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+}
+.content h3{
+    margin:36px 0 20px;
+}
+.content h2,.content h3,.content h4{
+    font-weight: 400;
+    color: #1f2f3d;
+}
+.content p{
+    font-size: 14px;
+    color: #5e6d82;
+    line-height: 1.5em;
+}
+.demo-block {
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    transition: .2s;
+}
+.source{
+    padding:24px;
+}
