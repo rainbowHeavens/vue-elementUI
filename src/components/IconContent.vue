@@ -12,424 +12,10 @@
         </div>
         <h3>图标集合</h3>
         <ul class="icon-list">
-            <li>
+            <li v-for="item in iconList" :key="item.iconId">
                 <span>
-                    <i class="el-icon-upload"></i>
-                    <span class="icon-name">el-icon-upload</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-error"></i>
-                    <span class="icon-name">el-icon-error</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-success"></i>
-                    <span class="icon-name">el-icon-success</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-warning"></i>
-                    <span class="icon-name">el-icon-warning</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-sort-down"></i>
-                    <span class="icon-name">el-icon-sort-down</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-sort-up"></i>
-                    <span class="icon-name">el-icon-sort-up</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-arrow-left"></i>
-                    <span class="icon-name">el-icon-arrow-left</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-arrow-right"></i>
-                    <span class="icon-name">el-icon-arrow-right</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-arrow-up"></i>
-                    <span class="icon-name">el-icon-arrow-up</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-arrow-down"></i>
-                    <span class="icon-name">el-icon-arrow-down</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-date"></i>
-                    <span class="icon-name">el-icon-date</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-edit"></i>
-                    <span class="icon-name">el-icon-edit</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-circle-plus"></i>
-                    <span class="icon-name">el-icon-circle-plus</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-circle-close"></i>
-                    <span class="icon-name">el-icon-circle-close</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-circle-check"></i>
-                    <span class="icon-name">el-icon-circle-check</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-circle-plus-outline"></i>
-                    <span class="icon-name">el-icon-circle-plus-outline</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-circle-close-outline"></i>
-                    <span class="icon-name">el-icon-circle-close-outline</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-circle-check-outline"></i>
-                    <span class="icon-name">el-icon-circle-check-outline</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-caret-left"></i>
-                    <span class="icon-name">el-icon-caret-left</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-caret-right"></i>
-                    <span class="icon-name">el-icon-caret-right</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-caret-top"></i>
-                    <span class="icon-name">el-icon-caret-top</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-caret-bottom"></i>
-                    <span class="icon-name">el-icon-caret-bottom</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-back"></i>
-                    <span class="icon-name">el-icon-back</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-close"></i>
-                    <span class="icon-name">el-icon-close</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-check"></i>
-                    <span class="icon-name">el-icon-check</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-delete"></i>
-                    <span class="icon-name">el-icon-delete</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-document"></i>
-                    <span class="icon-name">el-icon-document</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-download"></i>
-                    <span class="icon-name">el-icon-download</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-goods"></i>
-                    <span class="icon-name">el-icon-goods</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-search"></i>
-                    <span class="icon-name">el-icon-search</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-info"></i>
-                    <span class="icon-name">el-icon-info</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-message"></i>
-                    <span class="icon-name">el-icon-message</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-location"></i>
-                    <span class="icon-name">el-icon-location</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-location-outline"></i>
-                    <span class="icon-name">el-icon-location-outline</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-loading"></i>
-                    <span class="icon-name">el-icon-loading</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-menu"></i>
-                    <span class="icon-name">el-icon-menu</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-minus"></i>
-                    <span class="icon-name">el-icon-minus</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-bell"></i>
-                    <span class="icon-name">el-icon-bell</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-phone"></i>
-                    <span class="icon-name">el-icon-phone</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-phone-outline"></i>
-                    <span class="icon-name">el-icon-phone-outline</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-mobile-phone"></i>
-                    <span class="icon-name">el-icon-mobile-phone</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-question"></i>
-                    <span class="icon-name">el-icon-question</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-remove"></i>
-                    <span class="icon-name">el-icon-remove</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-share"></i>
-                    <span class="icon-name">el-icon-share</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-service"></i>
-                    <span class="icon-name">el-icon-service</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-tickets"></i>
-                    <span class="icon-name">el-icon-tickets</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-sort"></i>
-                    <span class="icon-name">el-icon-sort</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-time"></i>
-                    <span class="icon-name">el-icon-time</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-view"></i>
-                    <span class="icon-name">el-icon-view</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-upload2"></i>
-                    <span class="icon-name">el-icon-upload2</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-zoom-in"></i>
-                    <span class="icon-name">el-icon-zoom-in</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-zoom-out"></i>
-                    <span class="icon-name">el-icon-zoom-out</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-star-on"></i>
-                    <span class="icon-name">el-icon-star-on</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-star-off"></i>
-                    <span class="icon-name">el-icon-star-off</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-remove-outline"></i>
-                    <span class="icon-name">el-icon-remove-outline</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-sold-out"></i>
-                    <span class="icon-name">el-icon-sold-out</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-refresh"></i>
-                    <span class="icon-name">el-icon-refresh</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-rank"></i>
-                    <span class="icon-name">el-icon-rank</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-printer"></i>
-                    <span class="icon-name">el-icon-printer</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-plus"></i>
-                    <span class="icon-name">el-icon-plus</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-picture"></i>
-                    <span class="icon-name">el-icon-picture</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-picture-outline"></i>
-                    <span class="icon-name">el-icon-picture-outline</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-more"></i>
-                    <span class="icon-name">el-icon-more</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-more-outline"></i>
-                    <span class="icon-name">el-icon-more-outline</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-d-arrow-left"></i>
-                    <span class="icon-name">el-icon-d-arrow-left</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-d-arrow-right"></i>
-                    <span class="icon-name">el-icon-d-arrow-right</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-d-caret"></i>
-                    <span class="icon-name">el-icon-d-caret</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-edit-outline"></i>
-                    <span class="icon-name">el-icon-edit-outline</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-news"></i>
-                    <span class="icon-name">el-icon-news</span>
-                </span>
-            </li>
-            <li>
-                <span>
-                    <i class="el-icon-setting"></i>
-                    <span class="icon-name">el-icon-setting</span>
+                    <i :class="item.iconName"></i>
+                    <span class="icon-name">{{item.iconName}}</span>
                 </span>
             </li>
         </ul>
@@ -439,7 +25,78 @@
 export default {
     data(){
         return {
-
+            iconList:[
+                {iconId:1,iconName:"el-icon-upload"},
+                {iconId:2,iconName:"el-icon-error"},
+                {iconId:3,iconName:"el-icon-success"},
+                {iconId:4,iconName:"el-icon-warning"},
+                {iconId:5,iconName:"el-icon-sort-down"},
+                {iconId:6,iconName:"el-icon-sort-up"},
+                {iconId:7,iconName:"el-icon-arrow-left"},
+                {iconId:8,iconName:"el-icon-circle-plus"},
+                {iconId:9,iconName:"el-icon-circle-plus-outline"},
+                 {iconId:10,iconName:"el-icon-arrow-down"},
+                {iconId:11,iconName:"el-icon-arrow-right"},
+                {iconId:12,iconName:"el-icon-arrow-up"},
+                {iconId:13,iconName:"el-icon-back"},
+                {iconId:14,iconName:"el-icon-circle-close"},
+                {iconId:15,iconName:"el-icon-date"},
+                {iconId:16,iconName:"el-icon-circle-close-outline"},
+                {iconId:17,iconName:"el-icon-caret-left"},
+                {iconId:18,iconName:"el-icon-caret-bottom"},
+                {iconId:19,iconName:"el-icon-caret-top"},
+                {iconId:20,iconName:"el-icon-caret-right"},
+                {iconId:21,iconName:"el-icon-close"},
+                {iconId:22,iconName:"el-icon-check"},
+                {iconId:23,iconName:"el-icon-d-arrow-left"},
+                {iconId:24,iconName:"el-icon-delete"},
+                {iconId:25,iconName:"el-icon-d-arrow-right"},
+                {iconId:26,iconName:"el-icon-document"},
+                {iconId:27,iconName:"el-icon-d-caret"},
+                {iconId:28,iconName:"el-icon-edit-outline"},
+                {iconId:29,iconName:"el-icon-download"},
+                {iconId:30,iconName:"el-icon-goods"},
+                {iconId:31,iconName:"el-icon-search"},
+                {iconId:32,iconName:"el-icon-info"},
+                {iconId:33,iconName:"el-icon-message"},
+                {iconId:34,iconName:"el-icon-edit"},
+                {iconId:35,iconName:"el-icon-location"},
+                {iconId:36,iconName:"el-icon-loading"},
+                {iconId:37,iconName:"el-icon-location-outline"},
+                {iconId:38,iconName:"el-icon-menu"},
+                {iconId:39,iconName:"el-icon-mminus"},
+                {iconId:40,iconName:"el-icon-bell"},
+                {iconId:41,iconName:"el-icon-mobile-phone"},
+                {iconId:42,iconName:"el-icon-news"},
+                {iconId:43,iconName:"el-icon-more"},
+                {iconId:44,iconName:"el-icon-more-outline"},
+                {iconId:45,iconName:"el-icon-phone"},
+                {iconId:46,iconName:"el-icon-phone-outline"},
+                {iconId:47,iconName:"el-icon-picture"},
+                 {iconId:48,iconName:"el-icon-picture-outline"},
+                {iconId:49,iconName:"el-icon-plus"},
+                {iconId:50,iconName:"el-icon-rank"},
+                {iconId:51,iconName:"el-icon-printer"},
+                {iconId:52,iconName:"el-icon-refresh"},
+                {iconId:53,iconName:"el-icon-question"},
+                {iconId:54,iconName:"el-icon-remove"},
+                {iconId:55,iconName:"el-icon-share"},
+                {iconId:56,iconName:"el-icon-star-on"},
+                {iconId:57,iconName:"el-icon-setting"},
+                 {iconId:58,iconName:"el-icon-circle-check"},
+                {iconId:59,iconName:"el-icon-service"},
+                {iconId:60,iconName:"el-icon-sold-out"},
+                {iconId:61,iconName:"el-icon-remove-outline"},
+                {iconId:62,iconName:"el-icon-star-off"},
+                {iconId:63,iconName:"el-icon-circle-check-outline"},
+                {iconId:64,iconName:"el-icon-tickets"},
+                {iconId:65,iconName:"el-icon-sort"},
+                {iconId:66,iconName:"el-icon-zoom-in"},
+                {iconId:67,iconName:"el-icon-zoom-out"},
+                 {iconId:68,iconName:"el-icon-time"},
+                {iconId:69,iconName:"el-icon-view"},
+                {iconId:70,iconName:"el-icon-upload2"}
+            ]
         }
     }
 }

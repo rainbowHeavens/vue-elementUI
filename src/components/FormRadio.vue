@@ -28,38 +28,22 @@
         <div class="demo-block source">
             <div>
                 <el-radio-group v-model="radio3">
-                    <el-radio-button  label="北京">北京</el-radio-button>
-                    <el-radio-button label="上海">上海</el-radio-button>
-                    <el-radio-button label="天津">天津</el-radio-button>
-                    <el-radio-button label="广州">广州</el-radio-button>
-                    <el-radio-button label="深圳">深圳</el-radio-button>
+                    <el-radio-button v-for="item in cityList" :key="item.label" :label="item.value">{{item.value}}</el-radio-button>
                 </el-radio-group> 
             </div>
             <div style="margin:20px 0">
                 <el-radio-group v-model="radio4" size="medium">
-                    <el-radio-button  label="北京">北京</el-radio-button>
-                    <el-radio-button label="上海">上海</el-radio-button>
-                    <el-radio-button label="天津">天津</el-radio-button>
-                    <el-radio-button label="广州">广州</el-radio-button>
-                    <el-radio-button label="深圳">深圳</el-radio-button>
+                    <el-radio-button v-for="item in cityList" :key="item.label" :label="item.value">{{item.value}}</el-radio-button>
                 </el-radio-group> 
             </div>
             <div>
                 <el-radio-group v-model="radio6" size="small">
-                    <el-radio-button  label="北京">北京</el-radio-button>
-                    <el-radio-button label="上海">上海</el-radio-button>
-                    <el-radio-button label="天津">天津</el-radio-button>
-                    <el-radio-button label="广州">广州</el-radio-button>
-                    <el-radio-button label="深圳">深圳</el-radio-button>
+                   <el-radio-button v-for="item in cityList" :key="item.label" :label="item.value">{{item.value}}</el-radio-button>
                 </el-radio-group>  
             </div>
             <div style="margin:20px 0">
                 <el-radio-group v-model="radio5" size="mini">
-                    <el-radio-button  label="北京">北京</el-radio-button>
-                    <el-radio-button label="上海">上海</el-radio-button>
-                    <el-radio-button label="天津">天津</el-radio-button>
-                    <el-radio-button label="广州">广州</el-radio-button>
-                    <el-radio-button label="深圳">深圳</el-radio-button>
+                    <el-radio-button v-for="item in cityList" :key="item.label" :label="item.value">{{item.value}}</el-radio-button>
                 </el-radio-group> 
             </div>
             <div>
@@ -68,22 +52,21 @@
                 <el-radio v-model="radio7" label="3" border size="medium">备选项</el-radio>
                 <el-radio v-model="radio7" label="4" size="small" border>备选项</el-radio>
                 <el-radio v-model="radio7" label="5" size="mini" border>备选项</el-radio>
-            </div>
-            
-            
-            
+            </div>  
         </div>
-        
-        
-
-
-
     </section>
 </template>
 <script>
 export default {
     data(){
         return {
+            cityList:[
+                {label:"1",value:"上海"},
+                {label:"2",value:"北京"},
+                {label:"3",value:"天津"},
+                {label:"4",value:"广州"},
+                {label:"5",value:"深圳"}
+            ],
             radio:"1",
             radio1:"1",
             radio2:"1",
